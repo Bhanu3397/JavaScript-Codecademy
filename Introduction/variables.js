@@ -80,3 +80,61 @@ console.log(gainedDollar)
 console.log(lostDollar);
 
 // String Concatenation with Variables
+let favoriteAnimal  = 'Wolf';
+console.log('My favorite animal: '+favoriteAnimal);
+
+// String Interpolation:- JavaScript, we can insert, or interpolate, variables into strings using template literals. 
+const myPet = 'armadillo';
+console.log(`I own a pet ${myPet}.`);
+
+var myName = 'Wolf'
+var myCity = 'Irving'
+console.log(`My name is ${myName}. My favorite city is ${myCity}`)
+
+// typeof operator:- it can be useful to keep track of the data types of the variables in your program. If you need to check the data type of a variable’s value, you can use the typeof operator.
+const unknown1 = 'foo';
+console.log(typeof unknown1); // Output: string
+ 
+const unknown2 = 10;
+console.log(typeof unknown2); // Output: number
+ 
+const unknown3 = true; 
+console.log(typeof unknown3); // Output: boolean
+
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
+
+// Practice examples
+let myName = 'Looper'
+myName = 'Loki'
+let myNumber = 3
+console.log(myName+' '+myNumber)
+console.log(`My name is ${myName} and Lucky number is ${myNumber}.`)
+console.log(typeof myNumber)
+console.log(typeof myName)
+
+// Practice example
+// Defing a variable named kelvin
+const kelvin = 293;
+// const kelvin = 0;
+// Defining a variable named Celsius 
+let Celsius = kelvin - 273;
+var Fahrenheit = Celsius * (9/5) + 32
+Fahrenheit = Math.floor(Fahrenheit)
+console.log(Fahrenheit)
+console.log(`The temperature is ${Fahrenheit} fahrenheit`)
+
+// Practice example
+var myAge = 10;
+var earlyYears = 2
+earlyYears *=10.5;
+console.log(earlyYears)
+let laterYears = myAge -2;
+laterYears *= 4
+console.log(laterYears)
+let myAgeInDogYears = earlyYears + laterYears
+console.log(myAgeInDogYears)
+let myName = 'Wolf'.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} yeras old in dog yeras.`)
