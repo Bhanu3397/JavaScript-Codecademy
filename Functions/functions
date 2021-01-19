@@ -1,0 +1,21 @@
+Function Declarations:-One way to create a function is by using a function declaration.
+A function declaration consists of:
+The function keyword.
+The name of the function, or its identifier, followed by parentheses.
+A function body, or the block of statements required to perform a specific task, enclosed in the function’s curly brackets, { }.
+
+Calling a Function:-a function declaration does not ask the code inside the function body to run, it just declares the existence of the function.The code inside a function body runs, or executes, only when the function is called.
+
+Parameters and Arguments:-some functions can take inputs and use the inputs to perform a task. When declaring a function, we can specify its parameters. Parameters allow functions to accept input(s) and perform a task using the input(s). We use parameters as placeholders for information that will be passed to the function when it is called.
+
+Default Parameters:-  Default parameters allow parameters to have a predetermined value in case there is no argument passed into the function or if the argument is undefined when called.
+
+Return:-When a function is called, the computer will run through the function’s code and evaluate the result of calling the function. By default that resulting value is undefined.
+
+Helper Functions:-We can also use the return value of a function inside another function. These functions being called within another function are often referred to as helper functions. 
+
+Function Expressions:-Another way to define a function is to use a function expression. To define a function inside an expression, we can use the function keyword. In a function expression, the function name is usually omitted. A function with no name is called an anonymous function. A function expression is often stored in a variable in order to refer to it.
+
+Arrow Functions:- a shorter way to write functions by using the special “fat arrow” () => notation.
+
+Concise Body Arrow Functions:- JavaScript also provides several ways to refactor arrow function syntax. The most condensed form of the function is known as concise body.
