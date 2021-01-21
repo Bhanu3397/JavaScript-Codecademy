@@ -1,0 +1,29 @@
+Arrays:- Organizing and storing data is a foundational concept of programming.One way we organize data in real life is by making lists.
+Example:- 
+New Year's Resolutions:
+1. Keep a journal 
+2. Take a falconry class
+3. Learn to juggle
+
+Create an Array:-One way we can create an array is to use an array literal. An array literal creates an array by wrapping items in square brackets [].
+
+Accessing Elements:-Each element in an array has a numbered position known as its index. Arrays in JavaScript are zero-indexed, meaning the positions start counting from 0 rather than 1. Therefore, the first item in an array will be at position 0.
+
+Update Elements:- 
+Once you have access to an element in an array, you can update its value.
+
+Arrays with let and const:-
+Variables declared with the const keyword cannot be reassigned. However, elements in an array declared with const remain mutable. Meaning that we can change the contents of a const array, but cannot reassign a new array or a different value.
+
+The .length property:-One of an array’s built-in properties is length and it returns the number of items in the array. We access the .length property just like we do with strings. 
+
+The .push() Method:- built in method
+another method, .push() allows us to add items to the end of an array. 
+
+The .pop() Method:- Another array method, .pop(), removes the last item of an array.
+
+More Array Methods:-Some arrays methods that are available to JavaScript developers include: .join(), .slice(), .splice(), .shift(), .unshift(), and .concat() amongst many others. Using these built-in methods make it easier to do some common tasks when working with arrays.
+
+Arrays and Functions:-Well what happens if we try to change an array inside a function? Does the array keep the change after the function call or is it scoped to inside the function?
+
+Nested Arrays:-When an array contains another array it is known as a nested array.
